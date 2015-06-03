@@ -8,10 +8,21 @@
 	"buffers":
 	[
 		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n<link type=\"\"text/css\" rel=\"stylesheet\" href=\"MyHTMLstyle.css\">\n<title>Test Document</title>\n</head>\n<body>\n<h1>Title</h1>\n<p>Main text area</p1>\n<p id=\"myP\">What is this?</p>\n<script src=\"myScript.js\"></script>\n</body>\n</html>\n",
 			"file": "MyHTMLfile.html",
+			"file_size": 269,
+			"file_write_time": 130777010965691938,
 			"settings":
 			{
-				"buffer_size": 257,
+				"buffer_size": 258,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/FawltyTowers/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+			"settings":
+			{
+				"buffer_size": 172,
 				"line_ending": "Windows"
 			}
 		},
@@ -48,7 +59,7 @@
 				"Set Syntax: CSS"
 			]
 		],
-		"width": 392.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -69,15 +80,17 @@
 	},
 	"file_history":
 	[
+		"/C/Users/FawltyTowers/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/FawltyTowers/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/FawltyTowers/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/FawltyTowers/Documents/Attila/ST3.html",
 		"/C/Users/FawltyTowers/Documents/Attila/ST3css.css",
 		"/C/the-odin-project/Sandbox/README.md",
-		"/C/Users/FawltyTowers/AppData/Roaming/Sublime Text 3/Packages/User/Plain text.sublime-settings",
-		"/C/Users/FawltyTowers/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+		"/C/Users/FawltyTowers/AppData/Roaming/Sublime Text 3/Packages/User/Plain text.sublime-settings"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -91,6 +104,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"comment",
+			"html",
+			"title",
+			"html",
+			"<!",
 			"html",
 			"HTML",
 			"html",
@@ -123,15 +141,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 257,
+						"buffer_size": 258,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								157,
+								157
 							]
 						],
 						"settings":
@@ -147,6 +165,34 @@
 				},
 				{
 					"buffer": 1,
+					"file": "/C/Users/FawltyTowers/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109,
+								109
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "MyHTMLstyle.css",
 					"semi_transient": false,
 					"settings":
@@ -170,11 +216,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "myScript.js",
 					"semi_transient": false,
 					"settings":
@@ -198,7 +244,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
