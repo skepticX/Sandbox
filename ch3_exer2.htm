@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+	<body>
+		<script type="text/javascript" language="javascript">
+
+			function timesTable(num, startNum, endNum) {
+				for (var loopCounter = startNum; loopCounter <= endNum; loopCounter++) {
+					document.write(num + " * " + loopCounter + " = " + num * (loopCounter) + "<br />");
+				}
+			}
+			
+			var num;
+			while (num != -1) {
+				num = prompt("Times table number: ", "");
+				if (isNaN(num)) {
+					document.write("Please enter a valid number. <br />");
+				}
+				else if (num == -1) {
+					document.write("End of program.");
+					break;
+				}
+				else {
+					timesTable(num, 1, 12);
+					break;
+				}
+			}
+
+		</script>
+	</body>
+</html>
